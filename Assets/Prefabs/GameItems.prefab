@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1006760519544894}
+  m_IsPrefabAsset: 1
+--- !u!1 &1006760519544894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4838566039493778}
+  - component: {fileID: 114783463037270830}
+  m_Layer: 0
+  m_Name: GameItems
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4838566039493778
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1006760519544894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114783463037270830
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1006760519544894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4b89e60f52830a4cbe9daa8f3cc44d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shieldItemPrefab: {fileID: 1293214686284792, guid: cb1dd4291d23a1b4c9dc8b6cefde1cb6,
+    type: 2}
+  shieldSpawnDuration: 15
+  pillItemPrefab: {fileID: 1476590704403982, guid: f8c03e2becf671f458a87453a75eafaa,
+    type: 2}
+  pillSpawnDuration: 10
+  starItemPrefab: {fileID: 1861457501145930, guid: 683b1d0af1496394faa7f4f68cd2d513,
+    type: 2}
+  starSpawnDuration: 8
+  itemAppear: {fileID: 8300000, guid: 53f1d23a35ba66145991a5eec86108fc, type: 3}
+  itemAppearSFXVolume: 0.8
+  itemPickUp: {fileID: 8300000, guid: 9a7e71ee89c2ccb4c86685c8be4e8925, type: 3}
+  itemPickupSFXVolume: 0.5
+  itemDisappear: {fileID: 8300000, guid: 2a29608c1047ead4c8b74c1c436950cd, type: 3}
+  itemDisappearSFXVolume: 0.5
+  itemAppearVFX: {fileID: 1368388300491026, guid: a981eff49a6d568429bb9d18c05b3ed0,
+    type: 2}
+  itemDisappearVFX: {fileID: 1368388300491026, guid: a981eff49a6d568429bb9d18c05b3ed0,
+    type: 2}
+  durationOfVFX: 1
+  tMin: 10
+  tMax: 20
+  xMin: -5
+  xMax: 5
+  yMin: -9
+  yMax: 9
